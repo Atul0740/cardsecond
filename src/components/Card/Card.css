@@ -1,0 +1,73 @@
+.experience1 {
+    border-style: solid;
+    width: 700px;
+    border-color: red;
+    background: white;
+    /* height: 50vh; */
+    color: black;
+    box-shadow: 0 8px 8px 0 rgba(197, 99, 99, 0.911), 0 6px 10px 0 rgba(197, 99, 99, 0.911);
+    padding: 2.5%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* box-shadow: 0 8px 16px 0 gray, 0 6px 20px 0 gray; */
+    border-radius: 10px;
+}
+
+.experience1 span {
+    color: black;
+}
+
+.div-btn {
+    color: white;
+    background-color: rgb(214, 45, 39);
+    border-radius: 8px;
+    justify-self: flex-end;
+    align-self: flex-start;
+    padding: 10px;
+}
+
+.div-btn {
+    box-shadow: inset 0px 0px 0px white;
+    transition: all 0.5s !important;
+}
+
+.div-btn:hover {
+    box-shadow: inset 0px -80px 0px rgb(0, 110, 255);
+}
+
+.experience1:hover {
+    box-shadow: 2px 2px 2px 2px grey;
+    transform: translateY(-20px) !important;
+}
+
+@media (max-width:1199px) {
+    .experience1 {
+        max-width: 70vw;
+    }
+    .experience1 .h2 {
+        font-size: 18px;
+    }
+    .experience1 h4 {
+        font-size: 15px;
+    }
+    .experience1 span {
+        font-size: 12px;
+    }
+    .experience1 p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:1023px) {
+    .experience1 {
+        max-width: 60vw;
+    }
+}
+
+@media(max-width:767px) {
+    .experience1 {
+        max-width: 76vw;
+    }
+}
