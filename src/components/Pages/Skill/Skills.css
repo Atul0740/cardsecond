@@ -1,6 +1,6 @@
 .skill {
     background-color: white;
-    color: var(--blue);
+    color: rgb(0, 110, 255);
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -165,29 +165,29 @@
     /* text-decoration: underline rgb(214, 45, 39); */
 }
 
-@media(max-width:1199px) {
-    .skill-bars {
-        max-width: 70vw;
+@media(max-width:1350px) {
+    .skill {
+        width: 700px;
     }
-}
-
-@media(max-width:1023px) {
+    .skill-bars {
+        width: 600px;
+    }
     .title {
         font-size: 60px;
     }
-    .skill-bars {
-        max-width: 60vw;
-    }
 }
 
-@media(max-width:767px) {
-    .skill-container {
-        padding-left: 20px;
+@media(max-width:1020px) {
+    .skill {
+        width: 94vw;
+    }
+    .skill-bars {
+        width: 80vw;
     }
     .title {
         font-size: 40px;
     }
-    .skill-bars {
-        max-width: 70vw;
+    .skill-container {
+        padding-left: 10px;
     }
 }

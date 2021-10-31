@@ -5,7 +5,7 @@ const Courses = () => {
     return (
         <div id='courses'>
             <div className="course-container">
-            <h2 class="title1" style={{ color: "var(--blue)"}} >Courses</h2>
+            <h2 class="title1" style={{ color: "rgb(0, 110, 255)"}} >Courses</h2>
             <section className="course-here">
             <CourseCard
                     imgsrc='https://cdn.w600.comps.canstockphoto.com/brown-gift-boxes-with-red-ribbons-and-stock-photo_csp76498340.jpg'

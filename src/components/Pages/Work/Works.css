@@ -17,8 +17,8 @@
     font-weight: bolder;
     font-size: 80px;
     padding-bottom: 30px;
-    padding-top: 10px;
-    color: var(--blue)
+    margin-top: 0px;
+    color: rgb(0, 110, 255)
 }
 
 .work_sublinks {
@@ -27,7 +27,7 @@
 }
 
 .work_sublinks nav {
-    width: 64vw;
+    width: 500px;
 }
 
 .work_sublinks nav ul {
@@ -82,42 +82,30 @@
     align-items: flex-start;
 }
 
-@media(max-width:1023px) {
+@media(max-width:1350px) {
+    .work {
+        width: 700px;
+    }
+    .work_sublinks nav {
+        overflow-x: scroll;
+    }
     .title1 {
         font-size: 60px;
     }
 }
 
-@media only screen and (max-width:1023px) {
-    .sublinks_underline {
-        transform: translateY(0px);
-        display: none;
+@media(max-width:1020px) {
+    .work {
+        width: 94vw;
     }
     .work_sublinks nav {
-        width: 64vw;
-        height: 80px;
+        width: 80vw;
         overflow-x: scroll;
-        overflow-y: hidden;
-    }
-}
-
-@media(max-width:767px) {
-    .work-container {
-        padding-left: 20px;
-    }
-    .work_sublinks nav {
-        width: 90vw;
     }
     .title1 {
         font-size: 40px;
     }
-    .work-btn {
-        font-size: 15px;
-    }
-}
-
-@media(max-width:400px) {
-    .work-btn {
-        font-size: 12px;
+    .work-container {
+        padding-left: 10px;
     }
 }

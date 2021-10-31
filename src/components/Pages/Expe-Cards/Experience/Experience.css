@@ -19,23 +19,23 @@
     font-weight: bolder;
 }
 
-@media(max-width:1023px) {
+@media(max-width:1350px) {
+    .maineducation {
+        width: 700px;
+    }
     .edu-title {
         font-size: 60px;
     }
 }
 
-@media(max-width:767px) {
-    .card-container {
-        padding-left: 20px;
+@media(max-width:1020px) {
+    .maineducation {
+        width: 94vw;
     }
     .edu-title {
         font-size: 40px;
     }
-}
-
-@media(max-width:359px) {
-    .edu-title {
-        font-size: 30px;
+    .card-container {
+        padding-left: 10px;
     }
 }

@@ -7,18 +7,21 @@ import Education from './components/Pages/Expe-Cards/Education/Education'
 import Courses from './components/Pages/Course/Courses'
 import Achievements from './components/Pages/Expe-Cards/Achievement/Achievement'
 import Skills from './components/Pages/Skill/Skills'
+import React from 'react';
+
 function App() {
+  
   return (
     <div className="App">
       <Sidebar/>
       <div className="pages">
-      <Bio/>
-      <Experience/>
-      <Work/>
-      <Education/>
-      <Courses/>
-      <Achievements/>
-      <Skills/>
+        <Bio />
+        <Experience />
+        <Work />
+        <Education />
+        <Courses />
+        <Achievements />
+        <Skills />
       </div>
     </div>
   );

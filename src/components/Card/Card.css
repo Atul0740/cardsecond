@@ -12,7 +12,7 @@
     flex-direction: column;
     box-sizing: border-box;
     /* box-shadow: 0 8px 16px 0 gray, 0 6px 20px 0 gray; */
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .experience1 span {
@@ -42,32 +42,14 @@
     transform: translateY(-20px) !important;
 }
 
-@media (max-width:1199px) {
+@media(max-width:1350px) {
     .experience1 {
-        max-width: 70vw;
-    }
-    .experience1 .h2 {
-        font-size: 18px;
-    }
-    .experience1 h4 {
-        font-size: 15px;
-    }
-    .experience1 span {
-        font-size: 12px;
-    }
-    .experience1 p {
-        font-size: 12px;
+        width: 500px;
     }
 }
 
-@media(max-width:1023px) {
+@media(max-width:1020px) {
     .experience1 {
-        max-width: 60vw;
-    }
-}
-
-@media(max-width:767px) {
-    .experience1 {
-        max-width: 76vw;
+        width: 70vw;
     }
 }
